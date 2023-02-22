@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.divLeft{
+    width: 49,5%;
+    height: 949px;
+    float: left;
+    position: relative;
+}
+.inverte{
+    background: url(../images/imagem.png) no-repeat;
+    width: 300px;
+    height: 300px;
+}
+.inverte:hover {
+    background-image: url(../images/inversao.png);
+    transition: 1s;
+}
+.textDiv{
+    top: 160;
+    left: 180;
+}
+#texto {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
