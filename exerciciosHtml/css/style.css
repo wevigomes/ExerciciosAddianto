@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: inline-flexbox;
+    flex-flow: column nowrap;
+    background-color: rgb(19, 19, 177);
+    width:70%;
+    margin-bottom: 15px;
+}
+.alerta{
+    width: 70%;
+    color: white;
+    padding: 15px 20px ;
+    font-size: 18px;
+   
+    
+}
+.alerta1{
+    background-color: rgba(156, 2, 156, 0.733);
+    padding-bottom: 14px;
+    border-top: 10px;
+    margin-left: 30px ;   
+    margin-bottom: 15px;
+    justify-content:space-between;
+}
+#text0 {
+    margin: 21px;
+}
+.alerta1:hover{
+    background-color: rgba(218, 17, 218, 0.733);
+    transition: 1s;
+    color:black; 
+}
+.alerta2{
+    background-color: rgb(4, 182, 4);
+    padding-bottom: 14px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+#text1{
+    margin: 16px;
+}
+.alerta2:hover{
+    background-color: rgb(146, 255, 146);
+    transition: 1s;
+    color:black; 
+}
+.alerta3{
+    background-color: rgb(255, 168, 7);
+    padding-bottom: 14px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+#text2{
+    margin: 10px;
+}
+.alerta3:hover{
+    background-color: rgb(255, 198, 91);
+    transition: 1s;
+    color:black; 
+}
+.alerta4{
+    background-color: rgb(170, 19, 19);
+    padding-bottom: 14px;
+    margin-left: 30px;
+}
+#text3{
+    margin: 14px;
+}
+.alerta4:hover {
+    background-color: rgb(255, 35, 35) ;
+    transition: 1s;
+    color:black; 
+}
+
+.fechar{
+    margin-left: 300px;
+    opacity: 65%;
+    justify-self:self-end;
+    
+}
+.icone{
+    margin-right: 10px;
+   
+}.icone:hover{
+    color: yellow;
+}
